@@ -4,11 +4,11 @@ const yelp = require('yelp-fusion');
 
 // Place holder for Yelp Fusion's API Key. Grab them
 // from https://www.yelp.com/developers/v3/manage_app
-const apiKey = '<YOUR_API_KEY>';
+const apiKey = 'Jk6OGhKusZG5Qn6aoEVDIYfXwVAD83DYG0bekF3uGPqqyhLYyVhZjTQIIpWQlMR6dr0p4FEFk05SgQzMci2IU-6e1khz6ONpKgrbdmv-7oR9O2XMzbDlhC6qR1cBYnYx';
 
 const searchRequest = {
-  term:'Four Barrel Coffee',
-  location: 'san francisco, ca'
+  term:'Coffee shops',
+  location: 'fremont, ca'
 };
 
 const client = yelp.client(apiKey);
