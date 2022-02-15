@@ -8,7 +8,7 @@ const apiKey = 'Jk6OGhKusZG5Qn6aoEVDIYfXwVAD83DYG0bekF3uGPqqyhLYyVhZjTQIIpWQlMR6
 
 const searchRequest = {
   term:'Coffee shops',
-  location: 'fremont, ca'
+  location: 'san francisco, ca'
 };
 
 const client = yelp.client(apiKey);
